@@ -13,4 +13,8 @@ export class HomePage {
 
   }
 
+  login() {
+    this.navCtrl.setRoot('CategoriasPage') //vai empilhar uma pagina em cima da outra(navegação da home para categorias)
+  }
+
 }
